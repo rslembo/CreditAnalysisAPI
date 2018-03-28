@@ -23,7 +23,7 @@ namespace CreditAnalysisAPI.Controllers
             var key = _appConfiguration.Value.XApiKey;
             var response = _analysisService.DoAnalysis(request);
 
-            return Ok();
+            return Ok(response);
         }
     }
 }

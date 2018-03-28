@@ -8,7 +8,7 @@ namespace CreditAnalysisAPI.Services
     {
         public Response DoAnalysis(Request request)
         {
-            throw new NotImplementedException();
+            return new Response();
         }
     }
 }
