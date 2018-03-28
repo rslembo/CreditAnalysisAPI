@@ -16,4 +16,9 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CreditAnalysisAPI.Domain\CreditAnalysisAPI.Domain.csproj" />
+    <ProjectReference Include="..\CreditAnalysisAPI.Services\CreditAnalysisAPI.Services.csproj" />
+  </ItemGroup>
+
 </Project>
