@@ -4,6 +4,6 @@ namespace CreditAnalysisAPI.Services.Interfaces
 {
     public interface IAnalysisService
     {
-        bool DoAnalysis(AnalysisDto request); 
+        bool DoAnalysis(AnalysisDto analysisDto);
     }
 }

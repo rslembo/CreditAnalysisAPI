@@ -41,6 +41,5 @@ namespace CreditAnalysisAPI.Controllers
                 Rg = request.NomeMaeCompleto
             };
         }
-
     }
 }
