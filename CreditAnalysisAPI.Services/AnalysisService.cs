@@ -1,14 +1,16 @@
-﻿using CreditAnalysisAPI.Domain.Contracts;
+﻿using CreditAnalysisAPI.Domain.Dtos;
 using CreditAnalysisAPI.Services.Interfaces;
-using System;
 
 namespace CreditAnalysisAPI.Services
 {
     public class AnalysisService : IAnalysisService
     {
-        public Response DoAnalysis(Request request)
+        public bool DoAnalysis(AnalysisDto analysisDto)
         {
-            return new Response();
+            if (analysisDto.Cpf.Equals("12345678901"))
+                return false;
+
+            return true;
         }
     }
 }

@@ -1,9 +1,9 @@
-﻿using CreditAnalysisAPI.Domain.Contracts;
+﻿using CreditAnalysisAPI.Domain.Dtos;
 
 namespace CreditAnalysisAPI.Services.Interfaces
 {
     public interface IAnalysisService
     {
-        Response DoAnalysis(Request request); 
+        bool DoAnalysis(AnalysisDto request); 
     }
 }

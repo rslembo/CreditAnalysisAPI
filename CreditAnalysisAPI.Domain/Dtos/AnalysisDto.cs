@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace CreditAnalysisAPI.Domain.Contracts
+namespace CreditAnalysisAPI.Domain.Dtos
 {
-    public class Request
+    public class AnalysisDto
     {
         public string NomeCompleto { get; set; }
         public string NomeMaeCompleto { get; set; }
