@@ -1,2 +1,2 @@
 # CreditAnalysisAPI
-Testing developing WebAPI application with netcore 2.0.
+Netcore 2.0 API used by BotFramework application.
